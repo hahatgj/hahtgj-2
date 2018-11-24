@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+}
+
+html,body{
+  height: 100%;
+}
+
+.page-container{
+  position: relative;
+  height: 100%;
+}
+
+.page-video-bg{
+  height: 100%;
+}
+
+.page-video-bg video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.logo{
+  padding-top: 30px;
+  padding-left: 75px;
+  cursor: pointer; /*光标-指针*/
+}
+
+.logohou{
+  position: relative;
+  text-align: right;
+  font-size: 17px;
+  top: -50px;
+  left: -200px;
+}
+
+.lh01{
+  padding-left: 15px;
+}  
+
+.lh02{
+  padding-left: 15px;
+}
+
+.lh03{
+  padding-left: 15px;
+}
+
+
+.unmute{
+  position: relative;
+  text-align: right;
+  top: -80px;
+  left: -125px;
+  cursor: pointer;/*光标-指针*/
+}
+
+.page-mainer{
+  text-align: right;
+  padding-top: 180px;
+}
+
+.zhongjian0101{
+  position: relative;
+  left: -145px;
+}
+
+.zhongjian0201{
+  position: relative;
+  top: 40px;
+  left: -135px;
+}
+
+.zhongjian0202{
+  position: relative;
+  top: 40px;
+  left: -130px;
+}
+
+img:link{}
+img:visited{}
+img.zhongjian0201:hover{width: 200px; height: 70px;}
+img.zhongjian0202:hover{width: 200px; height: 70px;}
+img.zhongjian0203:hover{width: 200px; height: 200px;}
+
+.zhongjian0203{
+  position: relative;
+  top: 40px;
+  left: -125px;
+}
+
+.page-footer{
+  text-align: center;
+  font-size: 15px;
+  padding-top: 185px;
+}
+
+.weibu01{
+  position: relative;
+  top: -20px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.weibu02{
+  position: relative;
+  top: -5px;
+}
